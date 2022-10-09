@@ -7,18 +7,19 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: white;
+  background-color: #404040;
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: white;
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: white;
 }
 
 button {
@@ -68,7 +69,6 @@ form label {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -79,7 +79,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1%;
+  padding: 1%;
+  background-color: navy;
 }
 
 header h1 {
@@ -97,7 +98,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: white;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -125,7 +126,7 @@ main {
 .post .title span {
   font-style: italic;
   font-size: 90%;
-  color: #7d7d7d;
+  color: white;
 }
 
 .edit-link {
