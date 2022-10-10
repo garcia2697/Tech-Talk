@@ -164,7 +164,7 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  
   display: flex;
   justify-content: center;
   padding: 1%;
@@ -177,5 +177,9 @@ span{
 }
 
 h2{
+  color: white;
+}
+
+label{
   color: white;
 }
